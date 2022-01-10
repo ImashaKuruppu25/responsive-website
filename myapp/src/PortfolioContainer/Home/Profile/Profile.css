@@ -28,7 +28,7 @@
   color: (--white);
 }
 .highlighted-text {
-  color: var (--dark-orange);
+  color: darkgoldenrod;
 }
 .profile-role-tagline {
   font-size: 19px;

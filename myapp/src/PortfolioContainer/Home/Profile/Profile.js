@@ -40,7 +40,7 @@ function Profile() {
                   loop={Infinity}
                   steps={[
                     "Full Stack Developer",
-                    1000,
+                    1500,
                     "MERN Stack Developer",
                     1000,
                   ]}
