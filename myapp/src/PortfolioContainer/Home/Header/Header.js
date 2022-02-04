@@ -9,7 +9,9 @@ function Header() {
         </div>
         <div className="header-options">
           <div className="header-separator">
-            <a href="#">Home</a>
+            <a href="#" className="active">
+              Home
+            </a>
             <a href="#">AboutMe</a>
             <a href="#">Resume</a>
             <a href="#">ContactMe</a>

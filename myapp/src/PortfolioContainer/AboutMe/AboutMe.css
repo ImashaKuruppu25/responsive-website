@@ -1,0 +1,74 @@
+.aboutme-container {
+  margin: 5px;
+  background-image: url("../../assets/Home/bg22.png");
+   background-repeat: no-repeat;
+}
+.aboutme-parent {
+    margin: 100px 250px;
+  padding: 2px;
+  background-color: white;
+}
+.aboutme-heading {
+  margin: 10px;
+}
+.aboutme-heading h1 {
+  text-align: center;
+  color: orangered;
+  font-weight: 700;
+  font-size: 45px;
+}
+.aboutme-heading h6 {
+  text-align: center;
+  font-size: 15px;
+  color: darkgray;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+hr {
+  display: block;
+  margin: 5 auto;
+  height: 5px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.aboutme-sec {
+  margin: 50px 0;
+
+  display: block;
+  column-count: 2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.aboutme-sec img {
+  width: 525px;
+  height: 570px;
+}
+.aboutme-sec p {
+  text-align: justify;
+  padding: 30px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+ul {
+  list-style: none;
+}
+ul span {
+  font-weight: 700;
+}
+
+ul li::before {
+  content: "\2022";
+  color: darkorange;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  font-size: 30px;
+  align-items: center;
+}

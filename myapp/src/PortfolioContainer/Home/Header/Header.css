@@ -41,3 +41,33 @@
   padding: 10px;
   cursor: pointer;
 }
+.header-separator a.active {
+  color: blueviolet;
+}
+@media screen and (max-width: 600px) {
+  .header-container {
+  }
+  .header-logo {
+    font-size: 30px;
+    margin-left: 5px;
+  }
+  .header-separator a {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-container {
+  }
+  .header-logo {
+    font-size: 30px;
+    margin-left: 5px;
+  }
+  .header-separator a {
+    margin-left: -10px;
+    font-size: 12px;
+  }
+  .header-options{
+      margin-left: 25px;
+      margin-top: 2px;
+  }
+}

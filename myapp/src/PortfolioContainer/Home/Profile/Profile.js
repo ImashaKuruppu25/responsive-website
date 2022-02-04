@@ -35,13 +35,15 @@ function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               {""}
-              <h1>
+              <h1 style={{ color: "lightBlue" }}>
                 <Typical
                   loop={Infinity}
                   steps={[
                     "Full Stack Developer",
                     1500,
                     "MERN Stack Developer",
+                    1000,
+                    "Android Developer",
                     1000,
                   ]}
                 />
