@@ -4,7 +4,7 @@ import Imge from "../../assets/Home/propic.jpg";
 
 function AboutMe() {
   return (
-    <div className="aboutme-container">
+    <div className="aboutme-container" id="aboutMe">
       <div className="aboutme-parent">
         <div className="aboutme-heading">
           <h1>About Me</h1>

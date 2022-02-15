@@ -1,10 +1,10 @@
 .aboutme-container {
   margin: 5px;
   background-image: url("../../assets/Home/bg22.png");
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .aboutme-parent {
-    margin: 100px 250px;
+  margin: 100px 250px;
   padding: 2px;
   background-color: white;
 }
@@ -39,7 +39,6 @@ hr {
 }
 .aboutme-sec {
   margin: 50px 0;
-
   display: block;
   column-count: 2;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -48,7 +47,7 @@ hr {
 }
 .aboutme-sec img {
   width: 525px;
-  height: 570px;
+  height: 560px;
 }
 .aboutme-sec p {
   text-align: justify;
@@ -71,4 +70,103 @@ ul li::before {
   width: 1em;
   font-size: 30px;
   align-items: center;
+}
+
+@media screen and (max-width:1500px)  {
+  .aboutme-sec img {
+  width: 350px;
+  height: 365px;
+  
+}
+.aboutme-container {
+  margin: 2px;
+  background-image: url("../../assets/Home/bg22.png");
+  background-repeat: no-repeat;
+}
+.aboutme-parent {
+  margin: 10px 250px;
+  padding: 2px;
+  background-color: white;
+}
+.aboutme-heading {
+  margin: 5px;
+}
+.aboutme-heading h1 {
+  text-align: center;
+  color: orangered;
+  font-weight: 700;
+  font-size: 30px;
+}
+.aboutme-heading h6 {
+  text-align: center;
+  font-size: 10px;
+  color: darkgray;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+.aboutme-sec p {
+  text-align: left;
+  padding: 25px;
+  font-weight: 300;
+  font-size: 15px;
+}
+ul {
+  list-style: none;
+  font-size: 13px;
+  line-height: 18px;
+}
+ul span {
+  font-weight: 700;
+  padding-bottom: 14px;
+}
+}
+
+@media screen and (max-width:1140px)  {
+  .aboutme-sec img {
+  width: 350px;
+  height: 360px;
+  
+}
+.aboutme-container {
+  margin: 2px;
+  background-image: url("../../assets/Home/bg22.png");
+  background-repeat: no-repeat;
+}
+.aboutme-parent {
+  margin: 10px 25px;
+  padding: 2px;
+  background-color: white;
+}
+.aboutme-heading {
+  margin: 5px;
+}
+.aboutme-heading h1 {
+  text-align: center;
+  color: orangered;
+  font-weight: 700;
+  font-size: 30px;
+}
+.aboutme-heading h6 {
+  text-align: center;
+  font-size: 10px;
+  color: darkgray;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+.aboutme-sec p {
+  text-align: justify;
+  padding-left: 35px;
+  font-weight: 300;
+  font-size: 13px;
+}
+ul {
+  list-style: none;
+  font-size: 10px;
+  line-height: 14px;
+}
+ul span {
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+}
 }

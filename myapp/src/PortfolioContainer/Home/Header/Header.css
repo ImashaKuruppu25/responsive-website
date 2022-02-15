@@ -2,8 +2,9 @@
   width: 100%;
   height: fit-content;
   /* background-color: aquamarine; */
-  padding: 25px;
-  margin-top: 20px;
+  padding: 20px;
+
+  background-image: url("../../../assets/Home/bg.jpg");
 }
 .header-parent {
   display: flex;
@@ -41,9 +42,10 @@
   padding: 10px;
   cursor: pointer;
 }
-.header-separator a.active {
+.mainNav:active {
   color: blueviolet;
 }
+
 @media screen and (max-width: 600px) {
   .header-container {
   }
@@ -66,8 +68,8 @@
     margin-left: -10px;
     font-size: 12px;
   }
-  .header-options{
-      margin-left: 25px;
-      margin-top: 2px;
+  .header-options {
+    margin-left: 25px;
+    margin-top: 2px;
   }
 }
